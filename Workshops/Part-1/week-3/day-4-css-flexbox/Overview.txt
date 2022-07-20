@@ -1,0 +1,20 @@
+In today's workshop we will be looking at the following.
+*Flex Box*
+display: flex; declaration
+flex-direction property
+justify-content
+align-items
+flex-wrap
+nesting flex box
+
+*Combinators*
+- (no separator)
+- (space)
+- ,
+- >
+
+
+Please fork and clone the repository in preperation for partner coding.
+
+https://github.com/MultiverseLearningProducts/buckscounts/fork
+

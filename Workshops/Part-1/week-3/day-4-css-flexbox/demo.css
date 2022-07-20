@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,300,400,500,800&display=swap');
+
+* {
+  font-family: 'Montserrat';
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  background-color: rgb(226, 225, 225);
+  height: 100vh;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 2px solid orange;
+}
+
+header a {
+  width: 5rem;
+  text-align: center;
+  margin: .5rem 0rem;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid blue
+}
+
+#dashboard > * {
+  margin: 1rem;
+}
+
+/* graph */
+.results-graph {
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  align-items: flex-end;
+  border: 2px solid green;
+}
+
+.results-bar {
+  margin: 1rem;
+  width: 12.5%;
+  background-color: rgb(45, 136, 91);
+  padding-top: .5rem;
+  text-align: center;
+  border-radius: .2rem;
+}
+
+/* results bar, selected via custom attribute */
+[data-day=sunday] { height: 75%; }
+[data-day=monday] { height: 40%; }
+[data-day=tuesday] { height: 30%; }
+[data-day=wednesday] { height: 50%; }
+[data-day=thursday] { height: 60%; }
+[data-day=friday] { height: 50%; }
+[data-day=saturday] { height: 90%; }
+
+
+/* best sellers */
+.item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid purple;
+}
+
+.item-card, .results-graph {
+  background-color: rgb(240, 239, 239);
+  border-radius: .5em;
+  box-shadow: 1px 2px 2px gray;
+}
+
+.item-card {
+  padding: 1rem;
+  width: 15rem;
+  margin: 1rem 1rem 1rem 0; /* No left margin */
+}
+
+.item-card img {
+  max-width: calc(100% - .1rem);
+  display: block;
+  margin-bottom: .5rem;
+}
