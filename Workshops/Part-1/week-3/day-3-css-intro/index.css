@@ -1,24 +1,25 @@
 
-body {
-    margin: 0 auto;
-    width: 50%;
-}
+
 
 h1 {
     color: red;
+    border-style: double;
+    padding: 30px;
+    margin: 0px;
 }
 
-.myHeaderClass {
-   background-color: blue;
-   text-align: center;
 
+/* .myHeaderClass {
+   color: green;
+   text-align: center;
 }
 
 #header1 {
-    color: white;
+    color: blue;
     width: 400px;
+    margin-bottom: 100px;
 }
  #header2 {
     position: relative;
-    left: -10%
- }
+    left: -10%;
+ } */
