@@ -1,0 +1,49 @@
+/* Using CSS Selectors */
+body{
+    margin: 0px;
+    margin-top: 0px;
+}
+
+#section1{
+    background-color: rgb(200, 235, 180);
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+#firstHeading{
+    text-shadow: 3px 3px 5px green;
+    margin-top: 0;
+}
+
+#firstParagraph{
+    color: red;
+}
+
+a{
+    display: block;
+    margin-top: 10px;
+}
+
+#ol-section{
+    text-align: left;
+    border: solid red;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 1rem;
+    display: inline-block;
+    box-shadow: 3px 3px 5px green;
+}
+
+#ul-section{
+    text-align: left;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 15%;
+    border: solid green;
+    width: 30%;
+    box-shadow: 3px 3px 5px red;
+}

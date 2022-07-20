@@ -1,7 +1,8 @@
 ### Basic Selectors
     Element
-    Id
     Class
+    Id
+
 ### Fundamental Concepts
 Cascading - How CSS resolves conflicts
 
@@ -34,3 +35,7 @@ Cascading - How CSS resolves conflicts
         - em and rem
 
 ### Box Model
+    1. Content
+    2. Padding
+    3. Border
+    4. Margin

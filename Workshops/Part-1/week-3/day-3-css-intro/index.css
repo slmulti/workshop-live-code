@@ -1,0 +1,24 @@
+
+body {
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1 {
+    color: red;
+}
+
+.myHeaderClass {
+   background-color: blue;
+   text-align: center;
+
+}
+
+#header1 {
+    color: white;
+    width: 400px;
+}
+ #header2 {
+    position: relative;
+    left: -10%
+ }
