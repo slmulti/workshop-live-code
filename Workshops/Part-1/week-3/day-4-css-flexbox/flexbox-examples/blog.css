@@ -52,11 +52,11 @@ p {
     padding: 1rem 15%;
 }
 
-.article-container:nth-child(2n) {
+.article-container:nth-child(3n) {
     background-color: #f8f8f5;
 }
 
-.article-container:nth-child(2n) .article {
+.article-container:nth-child(3n) .article {
     flex-direction: row-reverse;
 }
 .article {

@@ -8,6 +8,13 @@ body > * {
     border: 2px solid blue;
   }
   
-  body > header > *, section > *  {
+  /* body > header > *, section > *  {
     border: 3px solid purple;
+  } */
+
+  header { 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  
   }
