@@ -10,7 +10,17 @@ body {
   padding: 1rem;
   background-color: rgb(226, 225, 225);
   height: 100vh;
+  border: 2px solid green;
 }
+
+body > * {
+  border: 2px solid blue;
+}
+
+body > header > *, section > *  {
+  border: 3px solid purple;
+}
+
 
 /* header */
 header {
@@ -19,7 +29,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
-  border: 2px solid orange;
+  
 }
 
 header a {
@@ -32,7 +42,6 @@ header a {
 main {
   display: flex;
   flex-direction: row;
-  border: 5px solid blue
 }
 
 #dashboard > * {
@@ -45,7 +54,6 @@ main {
   flex-direction: row;
   height: 40%;
   align-items: flex-end;
-  border: 2px solid green;
 }
 
 .results-bar {
@@ -71,7 +79,6 @@ main {
 .item-list-container {
   display: flex;
   flex-wrap: wrap;
-  border: 3px solid purple;
 }
 
 .item-card, .results-graph {
