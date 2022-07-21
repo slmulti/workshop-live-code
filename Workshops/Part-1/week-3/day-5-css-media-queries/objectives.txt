@@ -1,0 +1,4 @@
+Today we will:
+Define a media query via @media rule.
+Use min- and max- to create ranges, or 'break-points' for our rules.
+Design a page that displays differently on different-sized devices.

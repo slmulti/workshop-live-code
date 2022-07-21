@@ -1,0 +1,25 @@
+body {
+    margin: 100px auto;
+    width: 80%
+}
+
+#container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    border: 2px solid blue;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    /* gap: 3rem;
+    padding: 2rem; */
+    
+
+}
+
+.flex-item {
+    background-color: blue;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
