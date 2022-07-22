@@ -4,8 +4,30 @@
 ## Why Media Queries?
 
 Given the number of devices, be it desktop monitors or mobile screens, developing a website that is well suited to all screens has become a big challenge for developers.  Non-responsive designs are 'brittle' and can create a poor user experience.
+
 ## Responsive Design
 A solution would be to design screens for different sizes.  But how many different designs should we create?  How will the device know which version to use?
+
+## Before you start
+### What is The Viewport?
+The viewport is the user's visible area of a web page.
+The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.
+Before tablets and mobile phones, web pages were designed only for computer screens, and it was common for web pages to have a static design and a fixed size.
+Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.
+This was not perfect!! But a quick fix.
+Setting The Viewport
+HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag.
+
+You should include the following <meta> viewport element in all your web pages:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+This gives the browser instructions on how to control the page's dimensions and scaling.
+
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+
 ## @media rule
 @media rule to the rescue.  The @media rule allows us to query the device loading our website and use the information to construct rules based on this.
 
