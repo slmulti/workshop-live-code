@@ -30,11 +30,11 @@ Features we can query include width, height, orientation and many many more!
 
 Querying for a screen width of 500px wouldn't be very useful if we were only able to target screens **exactly** 500px wide.  Instead we can prefix certain properties with min- and max- to create ranges for our rules.
 
-@media (min-width: 30em) and (max-width: 80em) {
-  body {
-    background-color: purple;
-  }
-}
+    @media (min-width: 30em) and (max-width: 80em) {
+      body {
+        background-color: purple;
+      }
+    }
 
 
 
