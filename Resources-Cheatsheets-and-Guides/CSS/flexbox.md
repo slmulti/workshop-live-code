@@ -1,7 +1,10 @@
 # Flex Box
 ### What is it?
+
 Flexbox is a model introduced into css that helps control the layout of an html document and provides the ability to control more easily the flow or distribution of elements in the document.
+
 ### Terminology
+
 |Term| Explanation  |
 |--|--|
 | Container  | Parent element on which we will set the display property`display: flex;`  |
