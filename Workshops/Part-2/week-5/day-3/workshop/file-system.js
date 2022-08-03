@@ -1,7 +1,5 @@
 class File {
   constructor(name, extension, size, createdBy) {
-    //what is file size?
-    //what is max space?
     if (File.spaceUsed + size > File.maxSpace) {
       throw new Error('not enough memory');
     }
@@ -20,7 +18,6 @@ class File {
   static spaceUsed = 0;
   static deleteFile(file) {
     this.spaceUsed -= file.size;
-    console.log('Delete works!');
   }
 }
 
@@ -32,12 +29,28 @@ class User {
     return new File(name, extension, size, this.username);
   }
   renameFile(file, newName) {
-    if (this.username != file.createdBy) return console.log('not your file, mate')
-    if (newName.includes('.'))
+    console.log(this);
+    if (file.createdBy != this.username && this instanceof Admin == false) return 'not your file, mate';
+    if (newName.includes('.')) {
+      console.log('I have a full stop');
+      let x = newName.split('.');
+      file.extension = x.pop();
+      file.name = x.join('.');
+      return;
+    }
+    file.name = newName;
   }
 }
 
-
 class Admin extends User {
-
+  constructor(username) {
+    super(username);
+  }
 }
+
+let newAdmin = new Admin('jordanAdmin');
+
+let testFile = new File('fileName', 'txt', 4, 'anonymous');
+console.log(testFile);
+newAdmin.renameFile(testFile, 'newName.spec.js');
+console.log(testFile);
