@@ -22,5 +22,3 @@ class ObjectBuilder {
 
 let myNewObject1 = new ObjectBuilder('firstValue');
 let myNewObject2 = new ObjectBuilder('firstValue');
-
-console.log(ObjectBuilder.myClassProperty);
