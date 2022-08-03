@@ -5,6 +5,7 @@ class Book {
     this.author = author;
     this.isAvailable = true;
     this.currentOwner = null;
+    console.log(this);
   }
 }
 
@@ -38,3 +39,5 @@ class User {
     }
   }
 }
+
+let myNewBook = new Book('myTitle', 123456, 'theAuthor');
