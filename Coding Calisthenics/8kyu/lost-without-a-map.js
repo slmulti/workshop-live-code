@@ -6,3 +6,15 @@
 // Can run your function against tests:  Remember that it expects your function to be called maps
 
 const testArray = [2, 3, 5];
+
+function doubler(arr){
+
+    let newArrr = []
+
+    for(let i=0; i<arr.length; i++){
+        newArrr.push(arr[i]*2)
+    }
+    return newArrr
+}
+
+console.log(doubler(testArray))
